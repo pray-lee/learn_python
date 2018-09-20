@@ -12,5 +12,14 @@
 # 	'finally', 'for', 'from', 'global', 'if', 'import',
 # 	'in', 'is', 'lambda', 'not', 'or', 'pass', 'print',
 # 	'raise', 'return', 'try', 'while', 'with', 'yield']
+#   变量名具有可描述性，变量名不要太长
+# 常量
+#   python本来没有常量的概念，为了与其他保持一致，约定俗成有常量
+#   常量一旦定义，不予许改变
+#   常量用大写定义
+
+# 注释
+#   单行注释用'#'
+#   多行注释用' '''或者 """ '
 
 
