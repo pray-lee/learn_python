@@ -32,7 +32,7 @@
 # print(li)
 
 # 改
-li = ['1', '3', '张三', '李四']
+# li = ['1', '3', '张三', '李四']
 # li[2] = '王五'  # 按索引修改
 # print(li)
 # li[0:2] = '云姐' # 切片修改(按最小单位)
@@ -41,3 +41,19 @@ li = ['1', '3', '张三', '李四']
 # 查
 # li = [1, 2, 3, 5, 9]
 # print(li[0:2])
+
+# 公共方法
+# li = [1, 2, 3, 1, 3]
+# print(len(li))
+# print(li.count(1))
+# print(li.index(3))
+
+# 排序
+li = [1, 5, 3, 4, 8, 1]
+# li.sort() # 正向排序
+# print(li)
+# li.sort(reverse=True) # 反向排序
+# print(li)
+# li.reverse() # 翻转
+# print(li)
+
