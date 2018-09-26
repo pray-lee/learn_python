@@ -8,3 +8,19 @@ tu[4][3] = tu[4][3].upper()
 print(tu)
 for i in tu:
     print(i)
+
+# s = 'asdf'
+# print('---'.join(s))
+#
+# li = ['1', '2', '3']
+# print('---'.join(li))
+
+
+for i in range(0, 100, 3):
+    print(i)
+
+for i in range(10, 0, -1):
+    print(i)
+
+for i in range(0, 10, -1):
+    print('hah', i)     # 不会报错，也不会输出
