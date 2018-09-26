@@ -68,3 +68,4 @@
 # print(str.isalnum())  #字符串是否由字母或者数字组成
 # print(str.isalpha())  #字符串是否只由字母组成
 # print(str.isdigit())  #字符串是否只由数字组成
+
