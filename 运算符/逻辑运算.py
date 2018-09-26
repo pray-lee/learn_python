@@ -28,6 +28,9 @@ print(0 or 2)
 print(0 or 100)
 # 100
 
+print('haha', 3 > 1 and 0)
+# 0
+
 
 # x or y  x为非零，返回x, x and y ,x如果为真，返回y
 print(1 and 2)
