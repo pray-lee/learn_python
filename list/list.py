@@ -15,7 +15,7 @@
 # print(list)
 
 # 删
-# li = [1, 2, 3, 4, 5, 6, 7]
+list = [1, 2, 3, 4, 5, 6, 7]
 # list.pop()  # 按下标删除
 # print(list)
 # print(list.pop(1), list)
@@ -25,11 +25,11 @@
 # print(list)
 # list.clear()  #清空列表
 # print(list)
-# del li  # 从内存中删除
-# print(li)
+# del list  # 从内存中删除
+# print(list)
 
-# del li[0:3]  # 切片删除
-# print(li)
+# del list[0:3]  # 切片删除
+# print(list)
 
 # 改
 # li = ['1', '3', '张三', '李四']
