@@ -45,3 +45,5 @@ print(2 or 1 < 3 and 2)
 # 2
 print( 1 > 2 and 3 or 4 and 3 < 2)
 # False
+print(False or 1)
+# 1

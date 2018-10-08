@@ -24,3 +24,5 @@ for i in range(10, 0, -1):
 
 for i in range(0, 10, -1):
     print('hah', i)     # 不会报错，也不会输出
+
+print('sb,stoped')

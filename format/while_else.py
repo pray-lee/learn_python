@@ -3,6 +3,7 @@ while count <=5:
     count += 1
     if count == 3:
         break
+        # pass
     print('loop', count)
 else:
     print('循环正常执行')

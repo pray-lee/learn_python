@@ -1,6 +1,6 @@
 # 字符串的索引与切片
 # 索引
-# str = 'abcdefghijk'
+str = 'abcdefghijk'
 # print(str[0])
 # print(str[1])
 
@@ -56,8 +56,8 @@
 # s = 'asdasdfasdfasdfasdfasdf'
 # print(s.count('as')) # 寻找字符串里有多少个as
 
-# s = 'lee-xiao=-yong'
-# print(s.split('-'))  # 和js相同
+s = 'lee-xiao=-yong'
+print(s.split('-'))  # 和js相同
 #
 # s = '中华人民共和国中华'
 # print(s.replace('中华', '老王'))     # 默认全部替换
