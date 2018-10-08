@@ -15,7 +15,7 @@
 # print(list)
 
 # 删
-list = [1, 2, 3, 4, 5, 6, 7]
+# list = [1, 2, 3, 4, 5, 6, 7]
 # list.pop()  # 按下标删除
 # print(list)
 # print(list.pop(1), list)
@@ -49,7 +49,7 @@ list = [1, 2, 3, 4, 5, 6, 7]
 # print(li.index(3))
 
 # 排序
-li = [1, 5, 3, 4, 8, 1]
+# li = [1, 5, 3, 4, 8, 1]
 # li.sort() # 正向排序
 # print(li)
 # li.sort(reverse=True) # 反向排序
