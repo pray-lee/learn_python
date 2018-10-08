@@ -1,6 +1,6 @@
 # 字符串的索引与切片
 # 索引
-str = 'abcdefghijk'
+# str = 'abcdefghijk'
 # print(str[0])
 # print(str[1])
 
@@ -56,8 +56,8 @@ str = 'abcdefghijk'
 # s = 'asdasdfasdfasdfasdfasdf'
 # print(s.count('as')) # 寻找字符串里有多少个as
 
-s = 'lee-xiao=-yong'
-print(s.split('-'))  # 和js相同
+# s = 'lee-xiao=-yong'
+# print(s.split('-'))  # 和js相同
 #
 # s = '中华人民共和国中华'
 # print(s.replace('中华', '老王'))     # 默认全部替换
@@ -68,4 +68,14 @@ print(s.split('-'))  # 和js相同
 # print(str.isalnum())  #字符串是否由字母或者数字组成
 # print(str.isalpha())  #字符串是否只由字母组成
 # print(str.isdigit())  #字符串是否只由数字组成
+
+
+# 练习
+
+str1 = 'asdhf123sadkjfh123skjdfhas21'
+for i in str1:
+    if i.isalpha():
+        str1 = str1.replace(i, " ")
+str1 = str1.split()  # split不传参数，默认为所有的空字符
+print(len(str1))
 
