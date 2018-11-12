@@ -8,7 +8,7 @@ lis = []
 while i < 3:
   username = input('用户名')
   password = input('密码')
-  with open('list_of_info', mode="r+", encoding="utf-8") as f1:
+  with open('list_of_info', mode="r", encoding="utf-8") as f1:
     for line in f1:
       lis.append(line)
   print(lis)    

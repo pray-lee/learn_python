@@ -20,10 +20,11 @@
 #      print(count)
 #      count += 2
 #  方法2
+# count = 1
 # while count < 101:
+#     count += 2
 #     if count % 2 == 1:
 #         print(count)
-#     print(count)
 
 # 求 1-2 + 3 -4 。。。的和
 # sum = 0

@@ -14,6 +14,7 @@ print(1 < 2 and 3 < 4 or 1 > 2)
 print(2 > 1 and 3 < 4 or 4 > 5 and 2 < 1)
 # True
 print(1 > 2 and 3 < 4 or 4 > 5 and 2 > 1 or 9 < 8)
+print('question')
 # False
 print(not 2 > 1 and 3 < 4 or 4 > 5 and 2 > 1 and 9 > 8 or 7 < 6)
 # False
