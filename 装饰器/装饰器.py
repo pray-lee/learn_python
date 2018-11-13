@@ -41,4 +41,5 @@ def wrapper(f):
 def func2(b, a):
     print(1,b, a)
     return 'im func2'
-func2(1111111, a = 1)
+result = func2(1111111, a = 1)
+print(result)
