@@ -31,7 +31,6 @@ print(result)
 
 
 # 装饰器默写练习
-
 def wrapper(f):
     def inner(*args,**kwargs):
         result = f(*args, **kwargs)
