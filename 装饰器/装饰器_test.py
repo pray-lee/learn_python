@@ -19,7 +19,6 @@ def login(f):
                 return 
     return inner
 
-
 @login
 def add():
     print('add')
