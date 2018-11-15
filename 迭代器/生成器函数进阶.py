@@ -30,3 +30,48 @@ g1 = generator1()
 g1.__next__()
 g1.send('num1')
 g1.send('num2')
+
+
+
+# ******************************************************************************************
+
+
+# 给移动平均值的average函数加一个init装饰器,让其自动执行next方法,以后就可以直接调用send方法获取平均值了
+def init(f):
+    def inner(*args, **kw):
+        g = f(*args, **kw)
+        g.__next__()
+        return g
+    return inner
+
+
+
+# 获取移动平均值
+@init
+def average():
+    count = 0
+    sum = 0
+    avg = 0
+    while True:
+        num = yield avg
+        sum += num
+        count += 1
+        avg = sum/count
+
+avg = average()
+# avg.__next__()
+print(avg.send(10))
+print(avg.send(20))
+
+
+
+
+# python3 关于生成器的新特性
+def ge():
+    a = '12345678'
+    b = 'abcdefg'
+    yield from a
+    yield from b
+gg = ge()
+for i in gg:
+    print(i)
