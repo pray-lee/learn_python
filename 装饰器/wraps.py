@@ -5,10 +5,10 @@ print(test.__name__)
 
 
 # python内置装饰器
-from functools import wraps
+from functools import _wraps
 
 def wrapper(f):
-    @wraps(f) 
+    @wraps(f)
     def inner(*args, **kwargs):
         print('被装饰的函数执行之前做的事')
         result =  f(*args, **kwargs)
