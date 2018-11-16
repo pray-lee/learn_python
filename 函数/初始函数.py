@@ -40,7 +40,7 @@ func4(1,3,4,5)
 
 # 动态参数2 （只可以接收默认参数）
 def func5(**kwargs):
-    #print(kwargs) # type dict
+    print(kwargs) # type dict
 func5(b=2, c=3)
 
 # 混合参数  必须先args,然后kwargs, 因为形参必须先定义位置参数，再定义默认参数*******************************************

@@ -29,7 +29,6 @@ result = func1()
 print(result)
 
 
-
 # 装饰器默写练习
 def wrapper(f):
     def inner(*args,**kwargs):
@@ -38,7 +37,7 @@ def wrapper(f):
     return inner
 @wrapper
 def func2(b, a):
-    print(1,b, a)
+    print(1, b, a)
     return 'im func2'
 result = func2(1111111, a = 1)
 print(result)

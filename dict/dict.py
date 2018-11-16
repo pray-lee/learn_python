@@ -53,3 +53,5 @@
 # # 通过get查
 # print(dic3.get('age'))       # 如果没有这个值，则会报错
 # print(dic3.get('age1', '没有这个值'))   # 如果没有这个值，则会输出后面的消息,不会报错
+dic = {'a': 1}
+print('a' in dic)

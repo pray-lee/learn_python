@@ -74,8 +74,7 @@
 
 str1 = 'asdhf123sadkjfh123skjdfhas21'
 for i in str1:
-    if i.isalpha():
-        str1 = str1.replace(i, " ")
+	if i.isalpha():
+		str1 = str1.replace(i, " ")
 str1 = str1.split()  # split不传参数，默认为所有的空字符
 print(len(str1))
-
