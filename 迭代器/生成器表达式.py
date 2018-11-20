@@ -24,7 +24,7 @@ def test():
 
 g = test()
 for n in [1, 10]:
-	g = (add(n, i) for i in g)
+    g = (add(n, i) for i in g)
 
 # for循环分解：
 	# g = (add(n, i) for i in g)
