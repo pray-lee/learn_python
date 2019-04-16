@@ -71,6 +71,7 @@
 
 
 # 练习
+#
 str1 = 'asdhf123sadkjfh123skjdfhas21'
 for i in str1:
 	if i.isalpha():
