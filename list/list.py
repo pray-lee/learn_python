@@ -42,6 +42,7 @@
 # 查
 # li = [1, 2, 3, 5, 9]
 # print(li[0:2])
+# print(li[-1]) # 取列表最后一项
 
 # 公共方法
 # li = [1, 2, 3, 1, 3]
@@ -59,13 +60,13 @@
 # print(li)
 
 # 临时排序
-cars = ['bmw', 'audi', 'toyota', 'subaru']
+# cars = ['bmw', 'audi', 'toyota', 'subaru']
 
-print('\nHere is the original list:')
-print((cars))
+# print('\nHere is the original list:')
+# print((cars))
 
-print('\nHere is the sorted list:')
-print(sorted(cars))
+# print('\nHere is the sorted list:')
+# print(sorted(cars))
 
-print('\nHere is the original list again:')
-print(cars)
+# print('\nHere is the original list again:')
+# print(cars)
