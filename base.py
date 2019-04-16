@@ -18,3 +18,6 @@ print('''
 # bool
 #   True False   首字母大写，与JS不同
 print(type(True))
+
+# 制表符 换行符
+print('laguages:\n\tJava\n\tJavascript\n\tPHP')
