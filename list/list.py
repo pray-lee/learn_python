@@ -16,7 +16,8 @@
 
 # 删
 # list = [1, 2, 3, 4, 5, 6, 7]
-# list.pop()  # 按下标删除
+# list.pop()  # 按下标删除,
+# 如果没有传入参数，默认删除列表最后一项。
 # print(list)
 # print(list.pop(1), list)
 # print(list)
