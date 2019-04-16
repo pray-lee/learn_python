@@ -58,3 +58,14 @@
 # li.reverse() # 翻转
 # print(li)
 
+# 临时排序
+cars = ['bmw', 'audi', 'toyota', 'subaru']
+
+print('\nHere is the original list:')
+print((cars))
+
+print('\nHere is the sorted list:')
+print(sorted(cars))
+
+print('\nHere is the original list again:')
+print(cars)
