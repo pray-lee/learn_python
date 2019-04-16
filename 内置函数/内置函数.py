@@ -74,13 +74,14 @@
 #     print(i)
 # [i for i in [1, 4, 6, 7, 9, 12, 17] if i % 2 == 1]
 
-# from math import sqrt
-# def func(num):
-#     res = sqrt(num)
-#     return res % 1 == 0
-# ret = filter(func,range(1,101))
-# for i in ret:
-#     print(i)
+from math import sqrt
+def func(num):
+    res = sqrt(num)
+    return res % 1 == 0
+
+ret = filter(func,range(1,101))
+for i in ret:
+    print(i)
 
 
 # ret = map(abs,[1,-4,6,-8])
