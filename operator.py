@@ -42,8 +42,8 @@
 # print(s.startswith('x', 3, 5)) #在3，5区间内，是不是以x开头
 
 # s = 'alexWUsir'
-# print(s.find('s'))   # 寻找s对应的下标，找不到返回-1
-# print(s.index('s'))  # 同上，找不到报错
+# print(s.find('b'))   # 寻找s对应的下标，找不到返回-1
+# print(s.index('b'))  # 同上，找不到报错
 
 # s = '  lee xiao yong '
 # print(s.strip())   # 默认去除首尾空格
@@ -57,7 +57,7 @@
 # print(s.count('as')) # 寻找字符串里有多少个as
 
 # s = 'lee-xiao=-yong'
-# print(s.split('-'))  # 和js相同
+# print(s.split('-'))  和js相同
 #
 # s = '中华人民共和国中华'
 # print(s.replace('中华', '老王'))     # 默认全部替换
@@ -76,4 +76,5 @@ for i in str1:
 	if i.isalpha():
 		str1 = str1.replace(i, " ")
 str1 = str1.split()  # split不传参数，默认为所有的空字符
+print(str1)
 print(len(str1))
