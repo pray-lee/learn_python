@@ -15,10 +15,8 @@ for i in tu:
 # li = ['1', '2', '3']
 # print('---'.join(li))
 
-
 for i in range(0, 100, 3):
     print(i)
-
 for i in range(10, 0, -1):
     print(i)
 
@@ -26,3 +24,11 @@ for i in range(0, 10, -1):
     print('hah', i)     # 不会报错，也不会输出
 
 print('sb,stoped')
+
+# 动手试一试
+food = ('apple', 'pear', 'banana', 'strawbarry')
+for item in food:
+    print(item)
+# food[0] = 1 // 报错
+# 元祖可以赋新值,但是不可以修改
+food = ('xx', 'yy', 'zz')
