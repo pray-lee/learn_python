@@ -26,7 +26,6 @@ print(sum(digits))# 45
 squares = [value**2 for value in range(1, 11)]
 print(squares)
 
-
 # 动手试一试
 li = list(range(1, 1000001))
 # print(li)
