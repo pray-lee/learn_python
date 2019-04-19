@@ -2,7 +2,7 @@
 
 # 创建和使用
 #### 创建类
-class Dog():
+class Dog:
     '''一次模拟小狗的简单尝试'''
     def __init__(self, name, age):
         self.name = name
@@ -21,7 +21,7 @@ my_dog.sit()
 my_dog.roll_over()
 
 #### 使用类和实例
-class Car():
+class Car:
     '''一次模拟汽车的简单尝试'''
     def __init__(self, make, model, year):
         '''初始化汽车属性'''
@@ -36,7 +36,7 @@ my_new_car = Car('audi', 'a4', 2016)
 print(my_new_car.get_descriptive_name())
 
 # 给属性指定默认值
-class Car1():
+class Car1:
     def __init__(self, make, model, year):
         self.make = make
         self.model = model
@@ -58,7 +58,7 @@ my_new_car11 = Car1('bmw', 'm3', 2018)
 my_new_car11.read_odometer() # 0
 
 # 通过方法修改属性的值
-class Car2():
+class Car2:
     def __init__(self, make, model, year):
         self.make = make
         self.model = model
@@ -82,7 +82,7 @@ my_new_car2.update_odometer(10)
 print(my_new_car2.odometer_reading) # 10
 
 # 通过方法对属性的值进行递增
-class Car3():
+class Car3:
     def __init__(self, make, model, year):
         self.make = make
         self.model = model
