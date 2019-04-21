@@ -15,3 +15,6 @@ except:
     print('you are wrong')
 else:
     print('success')
+
+# 处理FileNotFoundError异常
+
