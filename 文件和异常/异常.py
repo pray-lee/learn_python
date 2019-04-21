@@ -17,4 +17,17 @@ else:
     print('success')
 
 # 处理FileNotFoundError异常
+# filename = 'alice.txt'
+# with open(filename) as file_object:
+    # contents = file_object.read()
+# 这个代码会报FileNotFoundError
+# 用try except包起来
+filename = 'alice.txt'
+try:
+    with open(filename) as file_object:
+        contents = file_object.read()
+except:
+    print('file does not exist.')
+else:
+    print('file has been found.')
 
