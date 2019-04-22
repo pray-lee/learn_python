@@ -69,6 +69,9 @@ import unittest
 # 上面的代码有些重复
 
 # setUp()
+# unittest.TestCase类包含方法setUp(),
+# 让我们只需在setUp()中创建一些对象一次，就可以在每个测试方法种使用他们了
+# Python将先运行setUp()，再运行各个以test_打头的方法.这样,在你编写的每个测试方法都可使用在方法setUp()中创建的对象了。
 class TestAnonymousSurvey1(unittest.TestCase):
 
     def setUp(self):
