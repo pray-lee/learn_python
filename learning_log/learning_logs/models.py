@@ -22,3 +22,22 @@ class Topic (models.Model):
 # 激活模型
 # 要使用模型，必须让Django将应用程序包含到项目中。为此，打开settings.py（它位于目录learning_log/learning_log中），你将看到一个这样的片段，INSTALLED_APPS,把learning_logs加在这个列表中即可
 
+# 定义模型Entry
+
+
+class Entry(models.Model):
+
+    """学到的有关某个主题的具体知识"""
+    topic = models.ForeignKey(Topic, on_delete=None)
+    text = models.TextField()
+    date_added = models.DateTimeField(auto_now_add=True)
+
+    # 我们在Entry类中嵌套了Meta类。Meta存储用于管理模型的额外信息，在这里，它让我们能够设置一个特殊属性，让Django在需要时使用Entries来表示多个条目。如果没有这个类Django将使用Entrys来表示多个条目。
+
+    class Meta:
+        verbose_name_plural = 'entries'
+
+    def __str__(self):
+        """返回模型的字符串表示"""
+        return self.text[:50] + '...'
+
