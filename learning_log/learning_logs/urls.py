@@ -2,7 +2,6 @@
 from django.urls import re_path
 
 from . import views
-
 # 如果在learning_log
 # 下的urls.py里面增加了子路由，并且增加了命名空间，这里要再声明一下app_name才不会出现namespace
 # is not registed的错误
