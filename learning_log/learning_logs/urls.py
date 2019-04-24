@@ -1,9 +1,9 @@
 """定义learning_logs的URL模式"""
-from django.conf.urls import url
+from django.urls import re_path
 
 from . import views
 
 urlpatterns = [
     # 主页
-    url(r'^$', views.index, name='index')
+    re_path(r'^$', views.index, name='index')
 ]
