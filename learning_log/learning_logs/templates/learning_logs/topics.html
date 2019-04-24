@@ -1,0 +1,14 @@
+{% extends "learning_logs/base.html" %}
+
+{% block content %}
+
+<p>Topics</p>
+<ul id="">
+  {% for topic in topics %}
+    <li class="">{{ topic }}</li>
+  {% empty %}
+    <li class="">No topics have been added yet.</li>
+  {% endfor %}
+</ul>
+
+{% endblock content %}
