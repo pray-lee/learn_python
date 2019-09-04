@@ -22,10 +22,12 @@ else:
     # contents = file_object.read()
 # 这个代码会报FileNotFoundError
 # 用try except包起来
-filename = 'alice.txt'
+import os
+filename = os.getcwd() + '/log.txt'
 try:
-    with open(filename) as file_object:
+    with open(filename, 'r') as file_object:
         contents = file_object.read()
+        print(contents)
 except:
     print('file does not exist.')
 else:
