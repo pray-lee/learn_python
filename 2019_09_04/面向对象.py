@@ -36,4 +36,18 @@ print(test.__dict__) # {_Test__score: 0}
 print(test.__score) # 报错 , 提示没有__score变量
 test.__marketing(56) # 报错 , 提示没有__marketing方法
 
-# 继承
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
