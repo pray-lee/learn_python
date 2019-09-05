@@ -23,12 +23,17 @@ print(Student.plus_sum())
 print(Student.add(1, 2))
 
 
-# 成员的可见性 共有 私有
-
+# 成员的可见性 共有 私有 如果是私有的，在变量前面加双下划线,这样外面就不能访问了。
 class Test():
-
     def __init__(self): 
-        self.score = 0 
+        self.__score = 0 
 
-    def marking(self, score):
+    def __marketing(self, score):
         self.score = score
+
+test = Test()
+print(test.__dict__) # {_Test__score: 0}
+print(test.__score) # 报错 , 提示没有__score变量
+test.__marketing(56) # 报错 , 提示没有__marketing方法
+
+# 继承
