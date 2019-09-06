@@ -29,3 +29,9 @@ for v in VIP:
 # 枚举内部只能做等值比较和is操作符
 print(VIP.YELLOW == VIP.GREEN) # True  GREEN是YELLOW的别名, 相当于YELLOW_ALIAS
 print(VIP.YELLOW is VIP.YELLOW) # True
+
+# 值与类型对应
+print(VIP(1)) # VIP.YELLOW 传入值，得到枚举类型
+
+
+from enum import IntEnum, unique # 枚举的值只能是整数, 如果是Enum就没限制, unique装饰器的意思是枚举类型不可以设置相同的名称
