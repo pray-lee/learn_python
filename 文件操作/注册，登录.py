@@ -8,10 +8,11 @@ lis = []
 while i < 3:
   username = input('用户名')
   password = input('密码')
+  # 从数据库里面取数
   with open('list_of_info', mode="r", encoding="utf-8") as f1:
     for line in f1:
       lis.append(line)
-  print(lis)    
+  print(lis)
   if username == lis[0].strip() and password == lis[1].strip():
     print('登录成功')
   else:

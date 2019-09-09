@@ -4,8 +4,8 @@ class Student():
     name = 'hahaha'
     def __init__(self):
         #实例变量
-        self.name = 'hehehe' 
-        print(self.__class__.name) # hahaha 在实例方法里想使用类变量，可以使用self.__class__.varible 
+        self.name = 'hehehe'
+        print(self.__class__.name) # hahaha 在实例方法里想使用类变量，可以使用self.__class__.varible
 
     # 定义类方法,需要增加一个装饰器 classmethod   传入class参数
     @classmethod
@@ -25,8 +25,8 @@ print(Student.add(1, 2))
 
 # 成员的可见性 共有 私有 如果是私有的，在变量前面加双下划线,这样外面就不能访问了。
 class Test():
-    def __init__(self): 
-        self.__score = 0 
+    def __init__(self):
+        self.__score = 0
 
     def __marketing(self, score):
         self.score = score
