@@ -38,7 +38,7 @@ print(x)
 # (('a'), ('b'))  (('c'), ('d')) 把这俩转成[{a:c}, {b:d}]
 tuple1 = (('a'), ('b'))
 tuple2 = (('c'), ('d'))
-zip1 = zip(tuple1, tuple2)
+zip1 = zip(tuple1, tuple2) # (a,c) (b,d)
 def func(tuple):
     return {tuple[0]: tuple[1]}
 result = map(func, zip1)
