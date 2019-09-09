@@ -9,7 +9,7 @@ print(result['name'])
 
 # 序列化 对象转换成json串
 json_array = [
-    { 'name': 'python_name'}
+    {'name': 'python_name'}
 ]
 
 json_str = json.dumps(json_array)

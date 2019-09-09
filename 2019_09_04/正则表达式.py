@@ -50,4 +50,7 @@ print(re.sub('python', convert, language))
 s = 'life is short, i use python'
 
 r = re.search('(life)(.)*(python)', s)
+print(r.group(0))
 print(r.group(1))
+print(r.group(2))
+print(r.group(3))
