@@ -16,7 +16,7 @@ def login(f):
                 return result
             else:
                 print('登录失败')
-                return 
+                return
     return inner
 
 @login

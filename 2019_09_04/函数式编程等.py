@@ -44,5 +44,5 @@ print(result_reduce)
 list_filter = [1,0,1,0,1,0]
 result_filter = filter(lambda param: True if param == 1 else False > 0, list_filter)
 result_filter1 = filter(lambda param: param > 0, list_filter)
-print(list(result_filter))
-print(list(result_filter1))
+print(list(result_filter)) # [1,1,1]
+print(list(result_filter1)) # [1,1,1]
