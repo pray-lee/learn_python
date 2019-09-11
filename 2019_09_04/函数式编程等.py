@@ -6,7 +6,7 @@ print(func(1)) # 1
 
 
 # 三元表达式
-# 条件为真的结果  if   条件判断  else   条件为假时的返回结果
+# 条件为真的结果  if   条件判断  else  条件为假时的返回结果
 # x if x > y else y
 x = 1
 y = 2
@@ -33,9 +33,16 @@ print(list(result_map1))
 
 
 
-# reduce
+# reduce 三个参数， 函数, 操作对象， 原始值
 from functools import reduce
 
 list_reduce = [1, 2, 3, 4, 5, 6]
 result_reduce = reduce(lambda x, y: x + y, list_reduce)
 print(result_reduce)
+
+# filter函数
+list_filter = [1,0,1,0,1,0]
+result_filter = filter(lambda param: True if param == 1 else False > 0, list_filter)
+result_filter1 = filter(lambda param: param > 0, list_filter)
+print(list(result_filter))
+print(list(result_filter1))
